@@ -1,0 +1,130 @@
+/***********************  A doctrK Design  ********************************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(rgb(172, 172, 172),rgb(218, 218, 218));
+}
+#container {
+    width: 600px;
+    height: 550px;
+    background-color: rgba(74, 116, 90, 0);
+    margin: 20px auto;
+    border-radius: 4px;
+}
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: rgb(24, 24, 24);
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.582), 0 6px 20px 0 rgba(0, 0, 0, 0.596);
+}
+#branding {
+    float: left;
+    margin-left: 20px;
+}
+#brand-title {
+    font-weight: bold;
+    color: rgb(133, 133, 133);
+    font-size: 12px;
+}
+#result {
+    height: 120px;
+}
+#history {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: grey;
+}
+#output {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+#keyboard {
+    height: 400px;
+}
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+.number, .empty {
+    background-color: rgb(24, 24, 24);
+    color: whitesmoke;
+    text-shadow: azure;
+}
+.operator {
+    background-color: rgb(105, 105, 105);
+}
+.number, .operator {
+    cursor: pointer;
+}
+.operator:active, .number:active {
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
+}
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: rgb(0, 37, 71);
+    color: rgb(168, 168, 168);
+
+}
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: rgb(0, 37, 71);
+    color: rgb(168, 168, 168);
+}
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: rgb(0, 37, 71);
+    color: rgb(168, 168, 168);
+}
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: rgb(0, 37, 71);
+    color: rgb(168, 168, 168);
+}
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: rgb(0, 37, 71);
+    color: rgb(168, 168, 168);
+}
+button:nth-child(1):active {
+    background-color: rgb(80, 80, 80);
+}
+button:nth-child(2):active {
+    background-color: rgb(80, 80, 80);
+}
+button:nth-child(3):active {
+    background-color: rgb(80, 80, 80);
+}
+button:nth-child(4):active {
+    background-color: rgb(0, 24, 46);
+}
+button:nth-child(8):active {
+    background-color: rgb(0, 24, 46);
+}
+button:nth-child(12):active {
+    background-color: rgb(0, 24, 46);
+}
+button:nth-child(16):active {
+    background-color: rgb(0, 24, 46);
+}
+button:nth-child(20):active {
+    background-color: rgb(0, 24, 46);
+}
