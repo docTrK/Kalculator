@@ -5,8 +5,8 @@ body {
     background-image: linear-gradient(rgb(172, 172, 172),rgb(218, 218, 218));
 }
 #container {
-    width: 340px;
-    height: 550px;
+    width: 325px;
+    height: 525px;
     background-color: rgba(74, 116, 90, 0);
     margin: 20px auto;
     border-radius: 4px;
