@@ -2,18 +2,17 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: linear-gradient(rgb(172, 172, 172),rgb(218, 218, 218));
+    background-color: rgba(17, 59, 0, 0.555);
 }
 #container {
-    width: 321px;
-    height: 521px;
-    background-color: rgba(74, 116, 90, 0);
+    width: 311px;
+    height: 511px;
     margin: auto;
     border-radius: 4px;
 }
 #calculator {
-    width: 320px;
-    height: 520px;
+    width: 310px;
+    height: 510px;
     background-color: rgb(24, 24, 24);
     margin: auto;
     position: relative;
@@ -53,7 +52,7 @@ body {
 .operator, .number, .empty {
     width: 50px;
     height: 50px;
-    margin: 15px;
+    margin: 13px;
     float: left;
     border-radius: 50%;
     border-width: 0;
